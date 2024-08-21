@@ -1,42 +1,53 @@
 {
-    "recipes": [
-        {
-            "id": "1",
-            "title": "Carrot Stew",
-            "ingredients": [
-                "1 Carrot",
-                "1 Leek",
-                "200g Tofu",
-                "300ml Veg Stock"
-            ],
-            "method": "Peel and slice 1 carrot into thin rounds or small chunks. Clean and slice 1 leek thinly. Cut 200g tofu into cubes. Heat a small amount of oil in a pot over medium heat, add the leek, and cook until softened, about 3-4 minutes. Add the carrot and cook for another 5 minutes. Add the tofu and pour in 300ml vegetable stock, bringing it to a gentle simmer. Cover and let it simmer for about 10-15 minutes, or until the carrot is tender. Season with salt and pepper to taste, and serve hot.",
-            "cookingTime": "45 minutes"
-        },
-        {
-            "id": "2",
-            "title": "Carrot Pizza",
-            "ingredients": [
-                "1 Base",
-                "Tomato Sauce",
-                "1 Green Pepper",
-                "100g Brown Mushrooms"
-            ],
-            "method": "Spread tomato sauce over 1 pizza base. Slice 1 green pepper and 100g brown mushrooms. Scatter the pepper and mushroom slices evenly over the base. Bake in a preheated oven according to the base's instructions, usually at 220°C (425°F) for about 10-15 minutes, or until the base is crispy and the toppings are cooked. Enjoy your pizza!",
-            "cookingTime": "35 minutes"
-        },
-        {
-            "id": "3",
-            "title": "Tofu Salad",
-            "ingredients": [
-                "1 Onion",
-                "1 Block of Feta",
-                "200g Tofu",
-                "Olives",
-                "Tomatoes",
-                "Olive Oil"
-            ],
-            "method": "Dice 1 onion and 200g tofu into cubes. Crumble 1 block of feta cheese. Chop tomatoes and slice olives. In a bowl, combine the tofu, feta, tomatoes, and olives. Drizzle with olive oil and gently toss to mix. Serve immediately or chill before serving.",
-            "cookingTime": "30 minutes"
-        }
-    ]
+  "recipes": [
+    {
+      "id": "1",
+      "title": "Carrot Stew",
+      "ingredients": [
+        "1 Carrot",
+        "1 Leek",
+        "200g Tofu",
+        "300ml Veg Stock"
+      ],
+      "method": "Peel and slice 1 carrot into thin rounds or small chunks. Clean and slice 1 leek thinly. Cut 200g tofu into cubes. Heat a small amount of oil in a pot over medium heat, add the leek, and cook until softened, about 3-4 minutes. Add the carrot and cook for another 5 minutes. Add the tofu and pour in 300ml vegetable stock, bringing it to a gentle simmer. Cover and let it simmer for about 10-15 minutes, or until the carrot is tender. Season with salt and pepper to taste, and serve hot.",
+      "cookingTime": "45 minutes"
+    },
+    {
+      "id": "2",
+      "title": "Carrot Pizza",
+      "ingredients": [
+        "1 Base",
+        "Tomato Sauce",
+        "1 Green Pepper",
+        "100g Brown Mushrooms"
+      ],
+      "method": "Spread tomato sauce over 1 pizza base. Slice 1 green pepper and 100g brown mushrooms. Scatter the pepper and mushroom slices evenly over the base. Bake in a preheated oven according to the base's instructions, usually at 220°C (425°F) for about 10-15 minutes, or until the base is crispy and the toppings are cooked. Enjoy your pizza!",
+      "cookingTime": "35 minutes"
+    },
+    {
+      "id": "3",
+      "title": "Tofu Salad",
+      "ingredients": [
+        "1 Onion",
+        "1 Block of Feta",
+        "200g Tofu",
+        "Olives",
+        "Tomatoes",
+        "Olive Oil"
+      ],
+      "method": "Dice 1 onion and 200g tofu into cubes. Crumble 1 block of feta cheese. Chop tomatoes and slice olives. In a bowl, combine the tofu, feta, tomatoes, and olives. Drizzle with olive oil and gently toss to mix. Serve immediately or chill before serving.",
+      "cookingTime": "30 minutes"
+    },
+    {
+      "id": "014f",
+      "title": "sdsdsd",
+      "ingredients": [
+        "dsds",
+        "dsdss",
+        "asdad"
+      ],
+      "method": "sds",
+      "cookingTime": "21 minutes"
+    }
+  ]
 }
