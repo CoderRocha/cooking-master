@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import './Navbar.css'
 
 // components
-import Searchbar from './Searchbar'
+import Searchbar from './Searchbar.js'
 
 export default function Navbar() {
   return (
