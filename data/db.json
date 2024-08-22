@@ -37,47 +37,5 @@
       ],
       "method": "Dice 1 onion and 200g tofu into cubes. Crumble 1 block of feta cheese. Chop tomatoes and slice olives. In a bowl, combine the tofu, feta, tomatoes, and olives. Drizzle with olive oil and gently toss to mix. Serve immediately or chill before serving.",
       "cookingTime": "30 minutes"
-    },
-    {
-      "id": "014f",
-      "title": "sdsdsd",
-      "ingredients": [
-        "dsds",
-        "dsdss",
-        "asdad"
-      ],
-      "method": "sds",
-      "cookingTime": "21 minutes"
-    },
-    {
-      "id": "f6c8",
-      "title": "chicken thing",
-      "ingredients": [
-        "chicken",
-        "things"
-      ],
-      "method": "cook this",
-      "cookingTime": "14 minutes"
-    },
-    {
-      "id": "5383",
-      "title": "new thing",
-      "ingredients": [
-        "one",
-        "two",
-        "three"
-      ],
-      "method": "cooking",
-      "cookingTime": "15 minutes"
-    },
-    {
-      "id": "033a",
-      "title": "as",
-      "ingredients": [
-        "as"
-      ],
-      "method": "12",
-      "cookingTime": "12 minutes"
-    }
-  ]
-}
+    }]
+  }
