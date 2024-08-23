@@ -31,3 +31,8 @@
 .ingredients button {
     margin: 0 0 0 10px;
 }
+.create.dark h2,
+.create.dark p,
+.create.dark span {
+    color: #e4e4e4;
+}

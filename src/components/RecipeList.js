@@ -9,7 +9,7 @@ export default function RecipeList({ recipes }) {
   const { mode } = useTheme()
 
   if (recipes.length === 0) {
-    return <div className="error">No recipes to show...</div>
+    return <div className={`error ${mode}`}><p>No recipes to show...</p></div>
   }
 
   return (
