@@ -59,4 +59,5 @@ You can also change the "Navbar" color to add a personal touch, to feel more fam
 ### Final Considerations
 
 You can add as many recipes as you like, and when creating a new recipe, you can't add the same ingredient twice, so it won't appear if you try to put the same ingredient on the recipe you are currently creating.
+
 Also, if you search for a specific recipe name, method, cooking time or ingredient, it will only show what you have searched. If you search something that don't exist in any of the recipes yet, it won't show anything :(
