@@ -54,7 +54,7 @@ You can also change the "Navbar" color to add a personal touch, to feel more fam
 - CSS3
 - Javascript
 - React.js
-- Json
+- Json-Server
 
 ### Final Considerations
 
