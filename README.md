@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Cooking Master
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+"Cooking Master" is a simple app project created by me, Guilherme Rocha, to understand more the process of creating a React Application from the ground up, utilizing many of the React features, such as "React Hooks", and more about local databases using "json-server".
 
-## Available Scripts
+# How to run the app correctly?
 
-In the project directory, you can run:
+After you download and extract all the source code on the zip file to it's own folder, you can run the following commands in order on the project directory terminal to install the necessary dependencies to run the application without any issues:
 
-### `npm start`
+### `npm install`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+After the installation, you need to install a specific 'json-server' version, so the "Search"
+function on the "Navbar" works properly. If you have any other json-server versions installed, first run this command:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `npm uninstall -g json-server`
 
-### `npm test`
+And then, run the following command to install the correct version for this project:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `npm i -g json-server@0.17.4`
 
-### `npm run build`
+After both installations, to run the application in a local server, first you need to run the following command
+for the json-server in a terminal:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `json-server --watch ./data/db.json`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+With this command, you watch the json local database so it can load the recipes when you run the application.
+And when you create new ones, it will be added to the database as well.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+And last but not least, you need to run the following command on another terminal to run the React Application itself:
 
-### `npm run eject`
+### `npm run start`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Press "Y" to accept to host the application on a new local port, and then, open:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[http://localhost:3001](http://localhost:3001) to view it in your browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The project is about a simple app that you can view and create your own recipes lists. It can display 3 recipes on each row, that are organized according to the order you create them. Each lists contains the Recipe title, ingredients, method and cooking time, so you can follow the step-by-step of each recipe to reproduce it correctly in real life, according to the info you added on each recipe list.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+And to add a little touch, you can either use the "Light" or "Dark" mode according to your own preferences, on the "Bright Sun" icon located in the left-up corner of the screen.
+You can also change the "Navbar" color to add a personal touch, to feel more familiar with the app, by clicking in one of the "3 colored circles" on the right-up corner of the screen, so you can add your favourite color to your own recipes app, to bright your day while you're cooking :D
 
-## Learn More
+## App Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Search bar to search for the recipes you've created
+- Option to create new recipes, containing 4 unique fields to add your own recipe name, ingredients, method and
+  cooking time in minutes!
+- Light and Dark Mode button
+- List of the recipes that you created, and they are organized by order when you create them
+- A button that is present in each recipe, so you can click it and fully view the recipe itself
+- You can customize your Navigation Bar with 3 different colors as well!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Technologies used in this project
 
-### Code Splitting
+- HTML5
+- CSS3
+- Javascript
+- React.js
+- Json
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Final Considerations
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You can add as many recipes as you like, and when creating a new recipe, you can't add the same ingredient twice, so it won't appear if you try to put the same ingredient on the recipe you are currently creating.
+Also, if you search for a specific recipe name, method, cooking time or ingredient, it will only show what you have searched. If you search something that don't exist in any of the recipes yet, it won't show anything :(
