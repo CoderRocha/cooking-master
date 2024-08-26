@@ -10,6 +10,7 @@ import RecipeList from '../../components/RecipeList'
 
 export default function Home() {
   const { mode } = useTheme()
+  
   const [data, setData] = useState(null)
   const [isPending, setIsPending] = useState(false)
   const [error, setError] = useState(false)
