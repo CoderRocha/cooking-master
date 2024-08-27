@@ -13,6 +13,18 @@
     margin-right: auto;
     color: #fff;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.navbar a.brand img {
+    margin-right: 10px; /* Adiciona um space entre o ícone e o texto */
+    height: 40px; /* Ajusta a altura conforme necessário */
+    width: auto;
+}
+
+.navbar a.brand h1 {
+    margin: 0;
+    font-size: 24px; /* Ajusta o tamanho da fonte conforme necessário */
 }
 .navbar a:last-child {
     color: #fff;
