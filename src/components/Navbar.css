@@ -17,7 +17,7 @@
     align-items: center;
 }
 .navbar a.brand img {
-    margin-right: 10px; /* Adiciona um space entre o ícone e o texto */
+    margin-right: 10px; /* Adiciona um espaço entre o ícone e o texto */
     height: 40px; /* Ajusta a altura conforme necessário */
     width: auto;
 }
