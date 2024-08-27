@@ -1,6 +1,6 @@
 # Cooking Master
 
-"Cooking Master" is a simple app project created by me, Guilherme Rocha, to understand more the process of creating a React Application from the ground up, utilizing many of the React features, such as "React Hooks", and more about local databases using "json-server".
+"Cooking Master" is a simple app project created by me, Guilherme Rocha, to understand more the process of creating a React Application from the ground up, utilizing many of the React features, such as "React Hooks", and more about local and realtime databases using 'json-server' and 'Firebase'. Also, the project is currently using Firebase 'Realtime Database' to store data, but initially, it was created to run with local databases with "json-server".
 
 # How to run the app correctly?
 
@@ -9,7 +9,11 @@ After you download and extract all the source code on the zip file to it's own f
 ### `npm install`
 
 After the installation, you need to install a specific 'json-server' version, so the "Search"
-function on the "Navbar" works properly. If you have any other json-server versions installed, first run this command:
+function on the "Navbar" works properly.
+
+# (P.S: This was before Firebase 'Realtime Database' was added into the project. So you don't need to install json-server now.)
+
+If you have any other json-server versions installed, first run this command:
 
 ### `npm uninstall -g json-server`
 
@@ -36,7 +40,9 @@ Press "Y" to accept to host the application on a new local port, and then, open:
 The project is about a simple app that you can view and create your own recipes lists. It can display 3 recipes on each row, that are organized according to the order you create them. Each lists contains the Recipe title, ingredients, method and cooking time, so you can follow the step-by-step of each recipe to reproduce it correctly in real life, according to the info you added on each recipe list.
 
 And to add a little touch, you can either use the "Light" or "Dark" mode according to your own preferences, on the "Bright Sun" icon located in the left-up corner of the screen.
-You can also change the "Navbar" color to add a personal touch, to feel more familiar with the app, by clicking in one of the "3 colored circles" on the right-up corner of the screen, so you can add your favourite color to your own recipes app, to bright your day while you're cooking :D
+You can also change the "Navbar" color to add a personal touch, to feel more familiar with the app, by clicking in one of the "colored circles" on the right-up corner of the screen, so you can add your favourite color to your own recipes app, to bright your day while you're cooking :D
+
+You can also search for the recipes you've created using the 'Search Bar', and you can delete any recipe by clicking on the "Trashcan" icon next to each recipe.
 
 ## App Features
 
@@ -46,7 +52,8 @@ You can also change the "Navbar" color to add a personal touch, to feel more fam
 - Light and Dark Mode button
 - List of the recipes that you created, and they are organized by order when you create them
 - A button that is present in each recipe, so you can click it and fully view the recipe itself
-- You can customize your Navigation Bar with 3 different colors as well!
+- Another button to delete the recipe if you don't like it or won't use it anymore
+- You can customize your Navigation Bar with different colors as well!
 
 ## Technologies used in this project
 
@@ -54,7 +61,8 @@ You can also change the "Navbar" color to add a personal touch, to feel more fam
 - CSS3
 - Javascript
 - React.js
-- Json-Server
+- Json-Server (Local Database)
+- Firebase (Realtime Database)
 
 ### Final Considerations
 

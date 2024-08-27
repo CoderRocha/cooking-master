@@ -5,7 +5,7 @@ import lightModeIcon from '../assets/lightmode-icon.svg'
 //styles
 import './ThemeSelector.css'
 
-const themeColors = ['#58249c', '#249c6b', '#b70233']
+const themeColors = ['#58249c', '#249c6b', '#b70233', '#eb34cc']
 
 export default function ThemeSelector() {
     const { changeColor, changeMode, mode } = useTheme()
