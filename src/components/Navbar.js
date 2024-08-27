@@ -4,6 +4,7 @@ import { useTheme } from '../hooks/useTheme.js'
 
 // styles
 import './Navbar.css'
+import cookingMasterIcon from '../assets/cooking-master-icon.png'
 
 // components
 import Searchbar from './Searchbar.js'
@@ -15,6 +16,10 @@ export default function Navbar() {
     <div className="navbar" style={{ background: color }}>
       <nav>
         <Link to="/" className="brand">
+            <img
+            src={cookingMasterIcon}
+            alt="Cooking Master Logo"
+            />
             <h1>Cooking Master</h1>
         </Link>
         <Searchbar />
