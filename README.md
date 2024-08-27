@@ -8,47 +8,24 @@ After you download and extract all the source code on the zip file to it's own f
 
 ### `npm install`
 
-After the installation, you need to install a specific 'json-server' version, so the "Search"
-function on the "Navbar" works properly.
+After the installation, you need to install a specific 'Firebase' version, so the 'Realtime Database' works properly.
+Run the following command to install the correct version for this project:
 
-# (P.S: This was before Firebase 'Realtime Database' was added into the project. So you don't need to install json-server now.)
+### `npm install firebase@8.5`
 
-If you have any other json-server versions installed, first run this command:
-
-### `npm uninstall -g json-server`
-
-And then, run the following command to install the correct version for this project:
-
-### `npm i -g json-server@0.17.4`
-
-After both installations, to run the application in a local server, first you need to run the following command
-for the json-server in a terminal:
-
-### `json-server --watch ./data/db.json`
-
-With this command, you watch the json local database so it can load the recipes when you run the application.
-And when you create new ones, it will be added to the database as well.
-
-And last but not least, you need to run the following command on another terminal to run the React Application itself:
+After both installations, to run the React application, you need to run the following command in a terminal:
 
 ### `npm run start`
 
-# If you're using realtime database with 'Firebase'
-
-Access the following local URL:
-[http://localhost:3000](http://localhost:3001) to view it in your browser.
-
-# If you're using local database with 'json-server
-
-Press "Y" to accept to host the application on a new local port, and then, open:
-[http://localhost:3001](http://localhost:3001) to view it in your browser.
+And then, access the application in the following local URL:
+[http://localhost:3000](http://localhost:3000)
 
 The project is about a simple app that you can view and create your own recipes lists. It can display 3 recipes on each row, that are organized according to the order you create them. Each lists contains the Recipe title, ingredients, method and cooking time, so you can follow the step-by-step of each recipe to reproduce it correctly in real life, according to the info you added on each recipe list.
 
 And to add a little touch, you can either use the "Light" or "Dark" mode according to your own preferences, on the "Bright Sun" icon located in the left-up corner of the screen.
-You can also change the "Navbar" color to add a personal touch, to feel more familiar with the app, by clicking in one of the "colored circles" on the right-up corner of the screen, so you can add your favourite color to your own recipes app, to bright your day while you're cooking :D
+You can also change the "Navigation Bar" color to add a personal touch, to feel more familiar with the app, by clicking in one of the "colored circles" on the right-up corner of the screen, so you can add your favourite color to your own recipes app, to bright your day while you're cooking :D
 
-You can also search for the recipes you've created using the 'Search Bar', and you can delete any recipe by clicking on the "Trashcan" icon next to each recipe.
+You can also search for the recipes you've created using the "Search Bar", and you can delete any recipe by clicking on the "Trash can" icon next to each recipe.
 
 ## App Features
 
@@ -67,7 +44,7 @@ You can also search for the recipes you've created using the 'Search Bar', and y
 - CSS3
 - Javascript
 - React.js
-- Json-Server (Local Database)
+- Json-Server for Local Database (Not used anymore. Replaced by Firebase Realtime Database)
 - Firebase (Realtime Database)
 
 ### Final Considerations
