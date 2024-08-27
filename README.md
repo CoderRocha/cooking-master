@@ -33,8 +33,14 @@ And last but not least, you need to run the following command on another termina
 
 ### `npm run start`
 
-Press "Y" to accept to host the application on a new local port, and then, open:
+# If you're using realtime database with 'Firebase'
 
+Access the following local URL:
+[http://localhost:3000](http://localhost:3001) to view it in your browser.
+
+# If you're using local database with 'json-server
+
+Press "Y" to accept to host the application on a new local port, and then, open:
 [http://localhost:3001](http://localhost:3001) to view it in your browser.
 
 The project is about a simple app that you can view and create your own recipes lists. It can display 3 recipes on each row, that are organized according to the order you create them. Each lists contains the Recipe title, ingredients, method and cooking time, so you can follow the step-by-step of each recipe to reproduce it correctly in real life, according to the info you added on each recipe list.
