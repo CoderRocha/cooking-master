@@ -14,6 +14,7 @@ export default function Create() {
   const [newIngredient, setNewIngredient] = useState('')
   const [ingredients, setIngredients] = useState([])
   const ingredientInput = useRef(null)
+
   const navigate = useNavigate()
   const { mode } = useTheme()
 
